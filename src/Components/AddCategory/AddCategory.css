@@ -1,0 +1,44 @@
+
+.addcategory-top-right {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+  }
+  
+  .addcategory-top-right select {
+    height: 56px;
+    width: 85%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: white;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: rgb(97, 100, 98);
+    /* line-height: 5; */
+  }
+  
+  .addcategory-top-right span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  .addcategory-top-right span:hover {
+    color: #2f4cdd;
+  }
+  
+  .addcategory-search-area {
+    max-width: 300px;
+    box-shadow: 0 15px 25px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 0.5rem;
+  }
+  
+  .addcategory-top-right .modal-saveBtn{
+    padding: 10px;
+  }

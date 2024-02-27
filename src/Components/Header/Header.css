@@ -1,0 +1,157 @@
+.header {
+  background: #fff;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  height: 5rem;
+  z-index: 1;
+  position: relative;
+  padding: 0rem;
+  background-color: #fff;
+  z-index: 3;
+  padding-left: 15px;
+  transition: all 0.2s ease;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navicon {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.navicon i {
+  font-size: 30px;
+  text-align: center;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+}
+
+.logo-header img {
+  width: 130px;
+  height: auto;
+}
+
+.nav-items {
+  width: 70%;
+  display: flex; 
+  align-items: center;
+}
+
+.nav-items ul {
+  /* font-size: 16px; */
+  display: flex;
+  gap: 50px;
+  padding-left: 40px;
+}
+
+.nav-items ul > li {
+  color: #a2a2a2;
+  font-weight: 600;
+  font-size: 18px;
+  list-style: none;
+}
+.nav-items ul > li:hover {
+  cursor: pointer;
+  color: #2f4cdd;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.user .user-detail {
+  font-weight: 700;
+}
+
+.user .user-profile {
+  height: 62px;
+  width: 62px;
+  padding: 2px;
+  border-radius: 50%;
+}
+.user .user-profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+/*
+SIDEBAR HERE
+*/
+.menu-bars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.nav-menu {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  background-color: #ffffff;
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* padding: 8px 0px 8px 16px; */
+  list-style: none;
+  height: 60px;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #d1d1d1;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav-menu-items {
+  width: 100%;
+}
+.navbar-toggle {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding:0 20px;
+  align-items: center;
+}
+
+nav span {
+  margin-left: 16px;
+}
